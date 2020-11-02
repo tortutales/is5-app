@@ -1,0 +1,12 @@
+{
+    "app": {
+        "name": "AuWorks",
+        "version": "1.0.0"
+    },
+    "user": {
+        "authToken": "",
+        "isLoggedIn": false,
+        "name": "",
+        "permissions": []
+    }
+}
