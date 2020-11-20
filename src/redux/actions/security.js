@@ -17,5 +17,5 @@ export const onLogin = ({
         type: ON_LOGIN,
         payload: response
     }))
-    .catch(Promise.reject);
+    .catch(error => Promise.reject(error));
     

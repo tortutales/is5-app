@@ -8,10 +8,16 @@ import LoginScreen from '../screens/login';
 import { onLogin } from '../redux/actions';
 
 const LoginContainer = ({
-    onLogin
-}) => <LoginScreen onLogin={onLogin}/>
+    onLogin,
+    userIsLoggedIn
+}) => <LoginScreen 
+    onLogin={onLogin}
+    userIsLoggedIn={userIsLoggedIn}
+/>
 
-const mapStateToProps = () => ({});
+const mapStateToProps = ({ user }) => ({
+    userIsLoggedIn: user.isLoggedIn
+});
 
 const mapDispatchToProps = dispatch => bindActionCreators({
     onLogin

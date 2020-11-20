@@ -3,10 +3,13 @@
         "name": "AuWorks",
         "version": "1.0.0"
     },
+    "dashboard": {
+        "hist": []
+    },
     "user": {
         "authToken": "",
-        "isLoggedIn": false,
+        "isLoggedIn": true,
         "name": "",
-        "permissions": []
+        "permissions": ["Dashboard"]
     }
 }

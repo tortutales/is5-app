@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "home",
+        "name": "dashboard",
+        "route": "/dashboard"
+    },
+    {
+        "icon": "assignment",
+        "name": "works",
+        "route": "/works"
+    },
+    {
+        "icon": "settings",
+        "name": "settings",
+        "route": "/settings"
+    },
+    {
+        "icon": "exit_to_app",
+        "name": "logout",
+        "route": "/logout"
+    }
+]

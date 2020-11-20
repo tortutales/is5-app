@@ -1,4 +1,8 @@
 {
+    "hist": {
+        "opvar": "{root}/hist/opvar",
+        "lda": "{root}/hist/lda"
+    },
     "security": {
         "login": "{root}/security/signin"
     }

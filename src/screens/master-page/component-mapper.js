@@ -1,8 +1,10 @@
 // @scripts
+import DashboardContainer from '../../containers/dashboard';
 import LoginContainer from '../../containers/login';
 
 // @constants
 const components = {
+    DashboardContainer,
     LoginContainer
 };
 

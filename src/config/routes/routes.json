@@ -1,14 +1,14 @@
 [
     {
-      "component": "LoginContainer",
-      "name": "login",
-      "permission": null,
-      "requiresLogout": true,
-      "url": "/login"
+        "component": "LoginContainer",
+        "name": "login",
+        "permission": null,
+        "requiresLogout": true,
+        "url": "/login"
     },
     {
         "component": "DashboardContainer",
-        "name": "works",
+        "name": "dashboard",
         "permission": "Dashboard",
         "requiresLogout": false,
         "url": "/dashboard"
